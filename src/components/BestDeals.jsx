@@ -8,7 +8,7 @@ import BestDeal9 from "../assets/BestDeal/BestDeal9.jpg";
 
 const BestDeals = () => {
   return (
-    <div className="mt-14 mx-auto mb-10 container">
+    <div className=" mx-auto mb-14 container">
       <div className="flex flex-col items-center mb-10">
         <h1 className="font-bold text-[40px] sm:text-[50px]">Best Deals</h1>
         <h4 className=" text-lg sm:text-xl font-semibold">Just For You</h4>
@@ -27,8 +27,8 @@ const BestDeals = () => {
             />
           </div>
           <div className="caption mt-4 flex flex-col items-center">
-            <p className="text-md">Geek Vape L200</p>
-            <p className="text-lg font-semibold">70,000 MMK</p>
+            <p className="text-md font-semibold">Geek Vape L200</p>
+            <p className="text-lg font-bold">70,000 MMK</p>
             <p className="text-sm line-through">80,000 MMK</p>
             <p className="text-yellow-300 font-bold flex gap-1 items-center">
               {" "}
@@ -63,8 +63,8 @@ const BestDeals = () => {
             />
           </div>
           <div className="caption mt-4 flex flex-col items-center">
-            <p className="text-md">Lost Vape Orion</p>
-            <p className="text-lg font-semibold">45,000 MMK</p>
+            <p className="text-md font-semibold">Lost Vape Orion</p>
+            <p className="text-lg font-bold">45,000 MMK</p>
             <p className="text-sm line-through">50,000 MMK</p>
             <p className="text-yellow-300 font-bold flex gap-1 items-center">
               {" "}
@@ -99,8 +99,8 @@ const BestDeals = () => {
             />
           </div>
           <div className="caption mt-4 flex flex-col items-center">
-            <p className="text-md">Mystery Disposable Vape</p>
-            <p className="text-lg font-semibold">50,000 MMK</p>
+            <p className="text-md font-semibold">Mystery Disposable Vape</p>
+            <p className="text-lg font-bold">50,000 MMK</p>
             <p className="text-sm line-through">60,000 MMK</p>
             <p className="text-yellow-300 font-bold flex gap-1 items-center">
               {" "}
@@ -135,8 +135,8 @@ const BestDeals = () => {
             />
           </div>
           <div className="caption mt-4 flex flex-col items-center">
-            <p className="text-md">SMOK NORD 5</p>
-            <p className="text-lg font-semibold">30,000 MMK</p>
+            <p className="text-md font-semibold">SMOK NORD 5</p>
+            <p className="text-lg font-bold">30,000 MMK</p>
             <p className="text-sm line-through">50,000 MMK</p>
             <p className="text-yellow-300 font-bold flex gap-1 items-center">
               {" "}
@@ -171,8 +171,8 @@ const BestDeals = () => {
             />
           </div>
           <div className="caption mt-4 flex flex-col items-center">
-            <p className="text-md">SMOK NOVO MASTER</p>
-            <p className="text-lg font-semibold">65,000 MMK</p>
+            <p className="text-md font-semibold">SMOK NOVO MASTER</p>
+            <p className="text-lg font-bold">65,000 MMK</p>
             <p className="text-sm line-through">80,000 MMK</p>
             <p className="text-yellow-300 font-bold flex gap-1 items-center">
               {" "}
@@ -207,8 +207,8 @@ const BestDeals = () => {
             />
           </div>
           <div className="caption mt-4 flex flex-col items-center">
-            <p className="text-md">Vaporesso XROS 3</p>
-            <p className="text-lg font-semibold">55,000 MMK</p>
+            <p className="text-md font-semibold">Vaporesso XROS 3</p>
+            <p className="text-lg font-bold">55,000 MMK</p>
             <p className="text-sm line-through">60,000 MMK</p>
             <p className="text-yellow-300 font-bold flex gap-1 items-center">
               {" "}

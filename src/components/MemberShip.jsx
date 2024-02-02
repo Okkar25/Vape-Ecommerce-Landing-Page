@@ -6,7 +6,7 @@ import MemPlus from "../assets/member/memberPlus.jpg";
 
 const MemberShip = () => {
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 md:grid-rows-2 gap-2 sm:gap-3 container mx-auto mb-14">
+    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 md:grid-rows-2 gap-2 sm:gap-3 container mx-auto mb-10">
       <div className="sm:col-span-3 sm:row-span-2 sm:rounded-xl overflow-hidden relative sm:w-full">
         <div className="absolute bottom-5 md:bottom-0 lg:bottom-10 left-8 md:flex lg:block items-center">
           <p className="sm:text-[22px] text-[17px] md:text-[25px] lg:text-[45px] font-bold w-[100px] sm:w-[100px] md:w-[200px] lg:w-[200px] mb-3">
