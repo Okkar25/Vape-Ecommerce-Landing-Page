@@ -7,7 +7,8 @@ export default {
   ],
   theme: {
     colors: {
-      
+    
+    "member": "#EBEBE9"
     },
 
     extend: {},
