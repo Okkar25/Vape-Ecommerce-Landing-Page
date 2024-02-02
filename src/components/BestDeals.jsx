@@ -1,4 +1,10 @@
 import React from "react";
+import BestDeal10 from "../assets/BestDeal/BestDeal10.jpg";
+import BestDeal2 from "../assets/BestDeal/BestDeal2.jpg";
+import BestDeal6 from "../assets/BestDeal/BestDeal6.jpg";
+import BestDeal7 from "../assets/BestDeal/BestDeal7.jpg";
+import BestDeal8 from "../assets/BestDeal/BestDeal8.jpg";
+import BestDeal9 from "../assets/BestDeal/BestDeal9.jpg";
 
 const BestDeals = () => {
   return (
@@ -16,7 +22,7 @@ const BestDeals = () => {
             </div>
             <img
               className="w-[210px] h-[210px] hover:scale-110 duration-200 cursor-pointer"
-              src="../../public/BestDeal/BestDeal2.jpg"
+              src={BestDeal2}
               alt=""
             />
           </div>
@@ -52,7 +58,7 @@ const BestDeals = () => {
             </div>
             <img
               className="w-[210px] h-[210px] hover:scale-110 duration-200 cursor-pointer"
-              src="../../public/BestDeal/BestDeal6.jpg"
+              src={BestDeal6}
               alt=""
             />
           </div>
@@ -88,7 +94,7 @@ const BestDeals = () => {
             </div>
             <img
               className="w-[210px] h-[210px] hover:scale-110 duration-200 cursor-pointer"
-              src="../../public/BestDeal/BestDeal7.jpg"
+              src={BestDeal7}
               alt=""
             />
           </div>
@@ -124,7 +130,7 @@ const BestDeals = () => {
             </div>
             <img
               className="w-[210px] h-[210px] hover:scale-110 duration-200 cursor-pointer"
-              src="../../public/BestDeal/BestDeal8.jpg"
+              src={BestDeal8}
               alt=""
             />
           </div>
@@ -160,7 +166,7 @@ const BestDeals = () => {
             </div>
             <img
               className="w-[210px] h-[210px] hover:scale-110 duration-200 cursor-pointer"
-              src="../../public/BestDeal/BestDeal9.jpg"
+              src={BestDeal9}
               alt=""
             />
           </div>
@@ -196,7 +202,7 @@ const BestDeals = () => {
             </div>
             <img
               className="w-[210px] h-[210px] hover:scale-110 duration-200 cursor-pointer"
-              src="../../public/BestDeal/BestDeal10.jpg"
+              src={BestDeal10}
               alt=""
             />
           </div>

@@ -1,4 +1,8 @@
 import React from "react";
+import Hero1 from "../assets/hero/hero1.jpg";
+import Hero2 from "../assets/hero/hero2.jpg";
+import Hero7 from "../assets/hero/hero7.jpg";
+import Hero8 from "../assets/hero/hero8.jpg";
 
 const Hero = () => {
   return (
@@ -81,7 +85,7 @@ const Hero = () => {
         {/* Item 1 */}
         <div className="hidden duration-700 ease-in-out" data-carousel-item>
           <img
-            src="../../public/hero/hero1.jpg"
+            src={Hero1}
             className="absolute block w-full h-screen object-right object-cover sm:object-cover -translate-x-1/2 left-1/2 sm:h-screen"
             alt="..."
           />
@@ -90,7 +94,7 @@ const Hero = () => {
         {/* Item 2 */}
         <div className="hidden duration-700 ease-in-out" data-carousel-item>
           <img
-            src="../../public/hero/hero2.jpg"
+            src={Hero2}
             className="absolute block w-full h-screen object-left object-cover sm:object-cover -translate-x-1/2 left-1/2 sm:h-screen"
             alt="..."
           />
@@ -99,7 +103,7 @@ const Hero = () => {
         {/* Item 3 */}
         <div className="hidden duration-700 ease-in-out" data-carousel-item>
           <img
-            src="../../public/hero/hero8.jpg"
+            src={Hero8}
             className="absolute block w-full h-screen object- object-cover sm:object-cover -translate-x-1/2 left-1/2 sm:h-screen"
             alt="..."
           />
@@ -108,7 +112,7 @@ const Hero = () => {
         {/* Item 4 */}
         <div className="hidden duration-700 ease-in-out" data-carousel-item>
           <img
-            src="../../public/hero/hero7.jpg"
+            src={Hero7}
             className="absolute block w-full h-screen object-right object-cover sm:object-cover -translate-x-1/2 left-1/2 sm:h-screen"
             alt="..."
           />
