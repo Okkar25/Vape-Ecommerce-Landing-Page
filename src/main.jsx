@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import "../node_modules/flowbite/dist/flowbite.js";
+// import "../node_modules/flowbite/dist/flowbite.js";
+import "flowbite";
 import App from "./App.jsx";
 import "./index.css";
 
