@@ -16,7 +16,7 @@ const BestDeals = () => {
 
       <div className="grid grid-cols-1 gap-3 sm:gap-5 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-6">
         <div className="best-deal-item mb-3 sm:mb-0">
-          <div className="relative flex justify-center mx-auto w-[250px] sm:w-auto items-center bg-gray-200 rounded-3xl overflow-hidden">
+          <div className="relative flex justify-center shadow-lg mx-auto w-[250px] sm:w-auto items-center bg-gray-200 rounded-3xl overflow-hidden">
             <div className="bg-red-500 absolute top-0 px-4 py-1 rounded-b-md text-white font-bold">
               25% Off
             </div>
@@ -27,7 +27,9 @@ const BestDeals = () => {
             />
           </div>
           <div className="caption mt-4 flex flex-col items-center">
-            <p className="text-md font-semibold">Geek Vape L200</p>
+            <p className="text-md font-semibold font-poppins mb-1">
+              Geek Vape L200
+            </p>
             <p className="text-lg font-bold">70,000 MMK</p>
             <p className="text-sm line-through">80,000 MMK</p>
             <p className="text-yellow-300 font-bold flex gap-1 items-center">
@@ -52,7 +54,7 @@ const BestDeals = () => {
         </div>
 
         <div className="best-deal-item mb-3 sm:mb-0">
-          <div className="relative flex justify-center mx-auto w-[250px] sm:w-auto items-center bg-gray-200 rounded-3xl overflow-hidden">
+          <div className="relative flex shadow-lg justify-center mx-auto w-[250px] sm:w-auto items-center bg-gray-200 rounded-3xl overflow-hidden">
             <div className="bg-red-500 absolute top-0 px-4 py-1 rounded-b-md text-white font-bold">
               25% Off
             </div>
@@ -63,7 +65,7 @@ const BestDeals = () => {
             />
           </div>
           <div className="caption mt-4 flex flex-col items-center">
-            <p className="text-md font-semibold">Lost Vape Orion</p>
+            <p className="text-md font-semibold font-poppins mb-1">Lost Vape Orion</p>
             <p className="text-lg font-bold">45,000 MMK</p>
             <p className="text-sm line-through">50,000 MMK</p>
             <p className="text-yellow-300 font-bold flex gap-1 items-center">
@@ -88,7 +90,7 @@ const BestDeals = () => {
         </div>
 
         <div className="best-deal-item mb-3 sm:mb-0">
-          <div className="relative flex justify-center mx-auto w-[250px] sm:w-auto items-center bg-gray-200 rounded-3xl overflow-hidden">
+          <div className="relative flex shadow-lg justify-center mx-auto w-[250px] sm:w-auto items-center bg-gray-200 rounded-3xl overflow-hidden">
             <div className="bg-red-500 absolute top-0 px-4 py-1 rounded-b-md text-white font-bold">
               25% Off
             </div>
@@ -99,7 +101,7 @@ const BestDeals = () => {
             />
           </div>
           <div className="caption mt-4 flex flex-col items-center">
-            <p className="text-md font-semibold">Mystery Disposable Vape</p>
+            <p className="text-md font-semibold font-poppins mb-1">Mystery Disposable Vape</p>
             <p className="text-lg font-bold">50,000 MMK</p>
             <p className="text-sm line-through">60,000 MMK</p>
             <p className="text-yellow-300 font-bold flex gap-1 items-center">
@@ -124,7 +126,7 @@ const BestDeals = () => {
         </div>
 
         <div className="best-deal-item mb-3 sm:mb-0">
-          <div className="relative flex justify-center mx-auto w-[250px] sm:w-auto items-center bg-gray-200 rounded-3xl overflow-hidden">
+          <div className="relative shadow-lg flex justify-center mx-auto w-[250px] sm:w-auto items-center bg-gray-200 rounded-3xl overflow-hidden">
             <div className="bg-red-500 absolute top-0 px-4 py-1 rounded-b-md text-white font-bold">
               25% Off
             </div>
@@ -135,7 +137,7 @@ const BestDeals = () => {
             />
           </div>
           <div className="caption mt-4 flex flex-col items-center">
-            <p className="text-md font-semibold">SMOK NORD 5</p>
+            <p className="text-md font-semibold font-poppins mb-1">SMOK NORD 5</p>
             <p className="text-lg font-bold">30,000 MMK</p>
             <p className="text-sm line-through">50,000 MMK</p>
             <p className="text-yellow-300 font-bold flex gap-1 items-center">
@@ -160,7 +162,7 @@ const BestDeals = () => {
         </div>
 
         <div className="best-deal-item mb-3 sm:mb-0">
-          <div className="relative flex justify-center mx-auto w-[250px] sm:w-auto items-center bg-gray-200 rounded-3xl overflow-hidden">
+          <div className="relative flex shadow-lg justify-center mx-auto w-[250px] sm:w-auto items-center bg-gray-200 rounded-3xl overflow-hidden">
             <div className="bg-red-500 absolute top-0 px-4 py-1 rounded-b-md text-white font-bold">
               25% Off
             </div>
@@ -171,7 +173,7 @@ const BestDeals = () => {
             />
           </div>
           <div className="caption mt-4 flex flex-col items-center">
-            <p className="text-md font-semibold">SMOK NOVO MASTER</p>
+            <p className="text-md font-semibold font-poppins mb-1">SMOK NOVO MASTER</p>
             <p className="text-lg font-bold">65,000 MMK</p>
             <p className="text-sm line-through">80,000 MMK</p>
             <p className="text-yellow-300 font-bold flex gap-1 items-center">
@@ -196,7 +198,7 @@ const BestDeals = () => {
         </div>
 
         <div className="best-deal-item mb-3 sm:mb-0">
-          <div className="relative flex justify-center mx-auto w-[250px] sm:w-auto items-center bg-gray-200 rounded-3xl overflow-hidden">
+          <div className="relative flex shadow-lg justify-center mx-auto w-[250px] sm:w-auto items-center bg-gray-200 rounded-3xl overflow-hidden">
             <div className="bg-red-500 absolute top-0 px-4 py-1 rounded-b-md text-white font-bold">
               25% Off
             </div>
@@ -207,7 +209,7 @@ const BestDeals = () => {
             />
           </div>
           <div className="caption mt-4 flex flex-col items-center">
-            <p className="text-md font-semibold">Vaporesso XROS 3</p>
+            <p className="text-md font-semibold font-poppins mb-1">Vaporesso XROS 3</p>
             <p className="text-lg font-bold">55,000 MMK</p>
             <p className="text-sm line-through">60,000 MMK</p>
             <p className="text-yellow-300 font-bold flex gap-1 items-center">

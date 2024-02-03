@@ -81,7 +81,9 @@ const Hero = () => {
 
         {/* hero caption */}
         <div className="absolute flex flex-col gap-1 justify-center select-none items-center bottom-1/3 sm:bottom-18 sm:bottom-24 left-1/2 -translate-x-1/2 z-50">
-          <h3 className="text-white text-xl sm:text-3xl font-roboto">The Best Look</h3>
+          <h3 className="text-white text-xl sm:text-3xl font-roboto">
+            The Best Look
+          </h3>
           <h1 className="text-white text-center text-[40px] sm:text-[60px] font-bold">
             Anytime Anywhere
           </h1>
@@ -96,21 +98,21 @@ const Hero = () => {
         <Slider {...settings} ref={SliderRef}>
           <div className="">
             <img
-              src={Hero1}
-              alt=""
-              className="w-full h-screen object-right object-cover"
-            />
-          </div>
-
-          <div>
-            <img
               src={Hero2}
               alt=""
               className="w-full h-screen object-left object-cover"
             />
           </div>
 
-          <div>
+          <div className="">
+            <img
+              src={Hero1}
+              alt=""
+              className="w-full h-screen object-left object-cover"
+            />
+          </div>
+
+          <div className="">
             <img
               src={Hero7}
               alt=""
@@ -118,7 +120,7 @@ const Hero = () => {
             />
           </div>
 
-          <div>
+          <div className="">
             <img
               src={Hero8}
               alt=""

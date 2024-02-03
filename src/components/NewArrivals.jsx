@@ -29,7 +29,7 @@ const NewArrivals = () => {
         </p>
       </div>
 
-      <div className="max-h-[270px] overflow-hidden sm:rounded-2xl relative">
+      <div className="max-h-[270px] overflow-hidden sm:rounded-2xl relative sm:shadow-xl">
         <Slider {...settings} ref={SliderRef}>
           <div className="">
             <img src={Slide1} alt="" className="w-full" />

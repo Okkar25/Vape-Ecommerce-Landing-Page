@@ -5,13 +5,13 @@ const Footer = () => {
     <div className="container mx-auto px-5 sm:px-10 lg:px-32">
       <div className="grid grid-cols-2 gap-2 grid-rows-3 sm:grid-cols-2 sm:grid-rows-3 md:grid-cols-3 md:grid-rows-2 xl:grid-cols-4  xl:grid-rows-2 sm:gap-5 md:gap-10 lg:gap-5 h-full md:h-[320px]">
         <div className="flex flex-col gap-3 font-semibold ">
-          <h3 className="text-2xl font-bold">Customer Service</h3>
+          <h3 className="text-2xl font-bold font-opensans">Customer Service</h3>
           <p className="text-md">Terms & Privacy Policy</p>
           <p className="text-md">Return Policy</p>
         </div>
 
         <div className="flex flex-col gap-3">
-          <h3 className="text-2xl font-bold">Language</h3>
+          <h3 className="text-2xl font-bold  font-opensans">Language</h3>
           <div className="text-md flex items-center gap-3 font-semibold">
             <input type="radio" name="language" checked />
             <label htmlFor="unicode">Myanmar (Unicode)</label>
@@ -27,7 +27,7 @@ const Footer = () => {
         </div>
 
         <div className="flex flex-col  gap-3">
-          <h3 className="text-2xl font-bold">Contact Us</h3>
+          <h3 className="text-2xl font-bold font-opensans">Contact Us</h3>
           <p className="text-md font-semibold">
             Lay Daunt Kan Main Road, Cashmere Stop, Near Zawana, Thingangyun
             Tsp, Yangon
@@ -36,7 +36,7 @@ const Footer = () => {
         </div>
 
         <div className="flex flex-col xl:items-center gap-3 ">
-          <h3 className="text-2xl font-bold">Contact Us</h3>
+          <h3 className="text-2xl font-bold font-opensans">Download Our App</h3>
           <img
             className="w-40 -ms-3"
             src="https://upload.wikimedia.org/wikipedia/commons/d/d0/QR_code_for_mobile_English_Wikipedia.svg"
@@ -45,7 +45,7 @@ const Footer = () => {
         </div>
 
         <div className="flex flex-col gap-3">
-          <h3 className="text-2xl font-bold">Payment</h3>
+          <h3 className="text-2xl font-bold font-opensans">Payment</h3>
           <div className="flex gap-1">
             <img
               className="sm:w-20 sm:h-12 w-14 h-10 rounded-xl object-cover"
@@ -61,7 +61,7 @@ const Footer = () => {
         </div>
 
         <div className="flex flex-col gap-3">
-          <h3 className="text-2xl font-bold">Follow Us On</h3>
+          <h3 className="text-2xl font-bold font-opensans">Follow Us On</h3>
           <div className="flex gap-1 sm:gap-3">
             <img
               className="sm:w-10 sm:h-10 w-7 h-7 rounded-full object-cover"
@@ -91,7 +91,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <p className="text-center block text-lg sm:font-semibold mb-5 md:translate-y-0 mt-0 md:mt-20 lg:mt-16 -translate-y-16">&copy; Copyright 2024 by S.D Co.,Ltd. All rights reserved</p>
+      <p className="text-center font-opensans block text-lg sm:font-semibold mb-5 md:translate-y-0 mt-0 md:mt-20 lg:mt-16 -translate-y-16">&copy; Copyright 2024 by S.D Co.,Ltd. All rights reserved</p>
     </div>
   );
 };

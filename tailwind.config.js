@@ -19,6 +19,8 @@ export default {
       fontFamily: {
         montserrat: "Montserrat",
         roboto: "Roboto",
+        opensans: "Open Sans",
+        poppins: "Poppins",
       },
     },
   },

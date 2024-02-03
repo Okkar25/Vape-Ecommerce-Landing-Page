@@ -7,7 +7,7 @@ import MemPlus from "../assets/member/memberPlus.jpg";
 const MemberShip = () => {
   return (
     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 md:grid-rows-2 gap-2 sm:gap-3 container mx-auto mb-10 sm:px-10 lg:px-16">
-      <div className="sm:col-span-3 sm:row-span-2 sm:rounded-xl overflow-hidden relative sm:w-full">
+      <div className="sm:col-span-3 sm:row-span-2 sm:rounded-xl overflow-hidden relative sm:w-full sm:shadow-lg">
         <div className="absolute bottom-5 md:bottom-0 lg:bottom-10 left-8 md:flex lg:block items-center">
           <p className="sm:text-[25px] text-[17px] font-roboto lg:text-[30px] xl:text-[45px] font-bold w-[100px] sm:w-[100px] md:w-[200px] lg:w-[200px] mb-3">
             Membership Program
@@ -26,7 +26,7 @@ const MemberShip = () => {
         />
       </div>
 
-      <div className="row-span-2 bg-member flex items-center sm:rounded-xl overflow-hidden relative sm:w-[150px] sm:h-[150px] md:w-full md:h-full">
+      <div className="row-span-2 bg-member flex items-center sm:shadow-lg sm:rounded-xl overflow-hidden relative sm:w-[150px] sm:h-[150px] md:w-full md:h-full">
         <img
           src={Mem6}
           alt=""
@@ -34,8 +34,8 @@ const MemberShip = () => {
         />
         <div className="absolute sm:bottom-5 left-5 block sm:hidden xl:flex justify-between items-center gap-10 lg:hidden">
           <div>
-            <p className="text-[23px] font-bold">Disposable</p>
-            <p className="font-semibold sm:w-[150px] md:hidden lg:block">
+            <p className="text-[23px] font-bold font-poppins">Disposable</p>
+            <p className="sm:w-[150px] md:hidden lg:block font-poppins">
               Find the best for you here !
             </p>
           </div>
@@ -56,7 +56,7 @@ const MemberShip = () => {
         </div>
       </div>
 
-      <div className="bg-member flex justify-center items-start sm:rounded-xl overflow-hidden relative sm:w-[150px] sm:h-[150px] md:w-full md:h-full">
+      <div className="bg-member flex justify-center items-start sm:shadow-lg sm:rounded-xl overflow-hidden relative sm:w-[150px] sm:h-[150px] md:w-full md:h-full">
         <img
           src={Item6}
           alt=""
@@ -64,8 +64,8 @@ const MemberShip = () => {
         />
         <div className="absolute bottom-14 sm:bottom-3 left-5 sm:hidden xl:flex justify-between items-center gap-10 lg:hidden">
           <div>
-            <p className="text-[23px] font-bold">Pods</p>
-            <p className="font-semibold sm:w-[150px] ">
+            <p className="text-[23px] font-bold font-poppins">Pods</p>
+            <p className="sm:w-[150px] font-poppins">
               Variety of choices available
             </p>
           </div>
@@ -86,7 +86,7 @@ const MemberShip = () => {
         </div>
       </div>
 
-      <div className="bg-member flex justify-center items-start sm:rounded-xl overflow-hidden relative sm:w-[150px] sm:h-[150px] md:w-full md:h-full">
+      <div className="bg-member flex justify-center items-start sm:shadow-lg sm:rounded-xl overflow-hidden relative sm:w-[150px] sm:h-[150px] md:w-full md:h-full">
         <img
           src={Item3}
           alt=""
@@ -94,8 +94,8 @@ const MemberShip = () => {
         />
         <div className="absolute bottom-14 sm:bottom-3 left-5 sm:hidden xl:flex justify-between items-center gap-10 lg:hidden">
           <div>
-            <p className="text-[23px] font-bold">Devices</p>
-            <p className="font-semibold sm:w-[150px]">
+            <p className="text-[23px] font-bold font-poppins">Devices</p>
+            <p className="font-poppins sm:w-[150px]">
               Easy, clean & superb flavour
             </p>
           </div>

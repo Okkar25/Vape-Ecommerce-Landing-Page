@@ -17,54 +17,54 @@ const NewReleased = () => {
       </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-rows-2 xl:grid-cols-4 xl:grid-rows-1 gap-1 sm:gap-3">
-        <div className="bg-yellow-200 flex justify-end items-center w-full sm:rounded-2xl relative">
+        <div className="bg-yellow-200 flex justify-end items-center w-full sm:rounded-2xl relative sm:shadow-lg">
           <img
             src={Release1}
             alt=""
             className="w-[180px] sm:w-[200px] hover:scale-90 duration-300 "
           />
 
-          <div className="absolute left-5 sm:left-3 md:left-10 xl:bottom-1/4 xl:left-7 font-roboto">
+          <div className="absolute left-10 sm:left-3 md:left-10 xl:bottom-1/4 xl:left-7 font-poppins">
             <p className="text-xl">Citras Mon</p>
             <p className="text-lg">Nic 3 Percent</p>
             <p className="text-lg font-semibold">30,000 MMK</p>
           </div>
         </div>
 
-        <div className="bg-pink-300 flex justify-end items-center w-full sm:rounded-2xl relative">
+        <div className="bg-pink-300 flex justify-end items-center w-full sm:rounded-2xl relative sm:shadow-lg">
           <img
             src={Release7}
             alt=""
             className="w-[180px] sm:w-[200px] hover:scale-90 duration-300 "
           />
-          <div className="absolute left-5 sm:left-3 md:left-10 xl:bottom-1/4 xl:left-7 font-roboto">
+          <div className="absolute left-10 sm:left-3 md:left-10 xl:bottom-1/4 xl:left-7 font-poppins">
             <p className="text-xl sm:w-[100px] md:w-full">Starwberry Taste</p>
             <p className="text-lg">Nic 3 Percent</p>
             <p className="text-lg font-semibold">35,000 MMK</p>
           </div>
         </div>
 
-        <div className="bg-blue-300 flex justify-end items-center w-full sm:rounded-2xl relative">
+        <div className="bg-blue-300 flex justify-end items-center w-full sm:rounded-2xl relative sm:shadow-lg">
           <img
             src={Release9}
             alt=""
             className="w-[180px] sm:w-[200px] hover:scale-90 duration-300 "
           />
-          <div className="absolute left-5 sm:left-3 md:left-10 xl:bottom-1/4 xl:left-7 font-roboto">
+          <div className="absolute left-10 sm:left-3 md:left-10 xl:bottom-1/4 xl:left-7 font-poppins">
             <p className="text-xl sm:w-[100px] md:w-full">Blueberry Taste</p>
             <p className="text-lg">Nic 3 Percent</p>
             <p className="text-lg font-semibold">45,000 MMK</p>
           </div>
         </div>
 
-        <div className="bg-green-300 flex justify-end items-center w-full sm:rounded-2xl relative">
+        <div className="bg-green-300 flex justify-end items-center w-full sm:rounded-2xl relative sm:shadow-lg">
           <img
             src={Release11}
             alt=""
             className="w-[180px] sm:w-[200px] hover:scale-90 duration-300"
           />
 
-          <div className="absolute left-5 sm:left-3 md:left-10 xl:bottom-1/4 xl:left-7 font-roboto">
+          <div className="absolute left-10 sm:left-3 md:left-10 xl:bottom-1/4 xl:left-7 font-poppins">
             <p className="text-xl">Melon Flavour</p>
             <p className="text-lg">Nic 3 Percent</p>
             <p className="text-lg font-semibold">35,000 MMK</p>

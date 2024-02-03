@@ -3,12 +3,16 @@ import SlideItem14 from "../assets/sliderItems/BestDeal10.jpg";
 import SlideItem13 from "../assets/sliderItems/BestDeal6.jpg";
 import SlideItem12 from "../assets/sliderItems/BestDeal7.jpg";
 import SlideItem1 from "../assets/sliderItems/item1.jpg";
-import SlideItem10 from "../assets/sliderItems/item10.jpg";
+import {
+  default as SlideItem10,
+  default as SlideItem16,
+} from "../assets/sliderItems/item10.jpg";
 import SlideItem11 from "../assets/sliderItems/item11.jpg";
 import SlideItem2 from "../assets/sliderItems/item2.jpg";
 import SlideItem3 from "../assets/sliderItems/item3.jpg";
 import SlideItem4 from "../assets/sliderItems/item4.jpg";
 import SlideItem5 from "../assets/sliderItems/item5.jpg";
+import SlideItem15 from "../assets/sliderItems/item6.jpg";
 import SlideItem7 from "../assets/sliderItems/item7.jpg";
 import SlideItem8 from "../assets/sliderItems/item8.jpg";
 import SlideItem9 from "../assets/sliderItems/item9.jpg";
@@ -27,10 +31,6 @@ const settings = {
 };
 
 const SlideItemArr = [
-  SlideItem3,
-  SlideItem3,
-  SlideItem3,
-  SlideItem3,
   SlideItem1,
   SlideItem2,
   SlideItem4,
@@ -40,6 +40,9 @@ const SlideItemArr = [
   SlideItem9,
   SlideItem10,
   SlideItem11,
+  SlideItem16,
+  SlideItem15,
+  SlideItem3,
   SlideItem12,
   SlideItem13,
   SlideItem14,
@@ -56,12 +59,12 @@ const Devices = () => {
       </div>
 
       <div className="h-[320px] w-full overflow-hidden sm:rounded-2xl bg-[url('./assets/rocks/rocks.jpg')]">
-        <div className="flex flex-row h-full overflow-auto bg-cover bg-gradient-to-r from-transparent via-slideGradient via-30% to-slideGradient">
+        <div className="flex flex-row h-full overflow-auto bg-cover bg-gradient-to-r from-transparent via-slideGradient via-50% sm:via-30% to-slideGradient">
           <div className="flex flex-col translate-x-3 sm:translate-x-0 sm:flex-row items-center justify-center  w-1/3 sm:w-60 lg:w-80 h-full mr-20 ">
             <img src={Dispose} className="w-full sm:w-[270px]" alt="" />
 
             <div className="sm:-translate-x-16 z-20 flex flex-col justify-center items-center">
-              <p className="text-[23px] sm:text-[20px] lg:text-[30px] text-white font-bold mb-1">
+              <p className="text-[23px] sm:text-[20px] lg:text-[30px] text-white font-bold mb-1 font-opensans">
                 Devices
               </p>
               <p className="text-white text-[15px] sm:text-[17px] lg:text-[18px] sm:font-semibold text-center">
@@ -71,7 +74,7 @@ const Devices = () => {
           </div>
 
           <div className="-ms-10 overflow-hidden h-full flex-1">
-            <div className="flex flex-row justify-center items-center h-full w-full -ps-20 pe-9 no-scrollbar overflow-x-auto gap-2 sm:gap-3 sm:ps-44 sm:pe-2">
+            <div className="flex flex-row items-center h-full w-full -ps-20 pe-3 no-scrollbar overflow-x-auto gap-2 sm:gap-3">
               {Array.from({ length: 15 }, (_, index) => (
                 <div className=" w-40 min-w-40 cursor-pointer">
                   <img
@@ -81,7 +84,7 @@ const Devices = () => {
                   />
 
                   <div className="caption flex flex-col justify-center items-center mt-2">
-                    <p className="text-md text-white">Lost Vape Orion</p>
+                    <p className="text-md text-white font-opensans">Lost Vape Orion</p>
                     <p className="text-md text-white">45,000 MMK</p>
                     <p className="text-yellow-300 flex gap-1 items-center">
                       {" "}
