@@ -35,7 +35,7 @@ const Footer = () => {
           <p className="text-md font-semibold">09458489458</p>
         </div>
 
-        <div className="flex flex-col xl:items-center gap-3 ">
+        <div className="flex flex-col gap-3 ">
           <h3 className="text-2xl font-bold font-opensans">Download Our App</h3>
           <img
             className="w-40 -ms-3"
@@ -91,7 +91,9 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <p className="text-center font-opensans block text-lg sm:font-semibold mb-5 md:translate-y-0 mt-0 md:mt-20 lg:mt-16 -translate-y-16">&copy; Copyright 2024 by S.D Co.,Ltd. All rights reserved</p>
+      <p className="text-center font-opensans block text-lg sm:font-semibold mb-5 md:translate-y-0 mt-0 md:mt-20 lg:mt-16 -translate-y-16">
+        &copy; Copyright 2024 by S.D Co.,Ltd. All rights reserved
+      </p>
     </div>
   );
 };
