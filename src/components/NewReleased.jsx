@@ -24,7 +24,7 @@ const NewReleased = () => {
             className="w-[180px] sm:w-[200px] hover:scale-90 duration-300 "
           />
 
-          <div className="absolute left-5 sm:left-3 md:left-10 xl:bottom-1/4 xl:left-7">
+          <div className="absolute left-5 sm:left-3 md:left-10 xl:bottom-1/4 xl:left-7 font-roboto">
             <p className="text-xl">Citras Mon</p>
             <p className="text-lg">Nic 3 Percent</p>
             <p className="text-lg font-semibold">30,000 MMK</p>
@@ -37,7 +37,7 @@ const NewReleased = () => {
             alt=""
             className="w-[180px] sm:w-[200px] hover:scale-90 duration-300 "
           />
-          <div className="absolute left-5 sm:left-3 md:left-10 xl:bottom-1/4 xl:left-7">
+          <div className="absolute left-5 sm:left-3 md:left-10 xl:bottom-1/4 xl:left-7 font-roboto">
             <p className="text-xl sm:w-[100px] md:w-full">Starwberry Taste</p>
             <p className="text-lg">Nic 3 Percent</p>
             <p className="text-lg font-semibold">35,000 MMK</p>
@@ -50,7 +50,7 @@ const NewReleased = () => {
             alt=""
             className="w-[180px] sm:w-[200px] hover:scale-90 duration-300 "
           />
-          <div className="absolute left-5 sm:left-3 md:left-10 xl:bottom-1/4 xl:left-7">
+          <div className="absolute left-5 sm:left-3 md:left-10 xl:bottom-1/4 xl:left-7 font-roboto">
             <p className="text-xl sm:w-[100px] md:w-full">Blueberry Taste</p>
             <p className="text-lg">Nic 3 Percent</p>
             <p className="text-lg font-semibold">45,000 MMK</p>
@@ -64,7 +64,7 @@ const NewReleased = () => {
             className="w-[180px] sm:w-[200px] hover:scale-90 duration-300"
           />
 
-          <div className="absolute left-5 sm:left-3 md:left-10 xl:bottom-1/4 xl:left-7">
+          <div className="absolute left-5 sm:left-3 md:left-10 xl:bottom-1/4 xl:left-7 font-roboto">
             <p className="text-xl">Melon Flavour</p>
             <p className="text-lg">Nic 3 Percent</p>
             <p className="text-lg font-semibold">35,000 MMK</p>

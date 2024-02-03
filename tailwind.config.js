@@ -16,6 +16,10 @@ export default {
         slideGradient: "#2d2d2d",
         slideImgBg: "#eaeaea",
       },
+      fontFamily: {
+        montserrat: "Montserrat",
+        roboto: "Roboto",
+      },
     },
   },
   plugins: [require("flowbite/plugin", "tailwind-scrollbar-hide")],

@@ -9,7 +9,7 @@ const MemberShip = () => {
     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 md:grid-rows-2 gap-2 sm:gap-3 container mx-auto mb-10 sm:px-10 lg:px-16">
       <div className="sm:col-span-3 sm:row-span-2 sm:rounded-xl overflow-hidden relative sm:w-full">
         <div className="absolute bottom-5 md:bottom-0 lg:bottom-10 left-8 md:flex lg:block items-center">
-          <p className="sm:text-[25px] text-[17px]  lg:text-[30px] xl:text-[45px] font-bold w-[100px] sm:w-[100px] md:w-[200px] lg:w-[200px] mb-3">
+          <p className="sm:text-[25px] text-[17px] font-roboto lg:text-[30px] xl:text-[45px] font-bold w-[100px] sm:w-[100px] md:w-[200px] lg:w-[200px] mb-3">
             Membership Program
           </p>
           <p className="sm:text-[20px] font-semibold sm:w-[200px] md:w-[300px] my-3 hidden xl:block">

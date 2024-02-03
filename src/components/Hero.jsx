@@ -81,11 +81,11 @@ const Hero = () => {
 
         {/* hero caption */}
         <div className="absolute flex flex-col gap-1 justify-center select-none items-center bottom-1/3 sm:bottom-18 sm:bottom-24 left-1/2 -translate-x-1/2 z-50">
-          <h3 className="text-white text-xl sm:text-3xl">The Best Look</h3>
+          <h3 className="text-white text-xl sm:text-3xl font-roboto">The Best Look</h3>
           <h1 className="text-white text-center text-[40px] sm:text-[60px] font-bold">
             Anytime Anywhere
           </h1>
-          <h5 className="text-white text-md sm:text-xl">
+          <h5 className="text-white text-md sm:text-xl font-roboto">
             Starts from 10,000 MMK
           </h5>
           <button className="text-white text-xl py-1 px-5 sm:py-2 sm:px-7 bg-white/30 hover:bg-white/50 hover:ring-2 hover:ring-white mt-5 rounded-full">
