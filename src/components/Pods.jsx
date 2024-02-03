@@ -47,7 +47,7 @@ const SlideItemArr = [
 
 const Pods = () => {
   return (
-    <div className="container mx-auto mb-3 sm:mb-20 sm:px-10 lg:px-16 ">
+    <div className="container mx-auto mb-3 sm:mb-14 sm:px-10 lg:px-16 ">
       <div className="h-[320px] w-full overflow-hidden sm:rounded-2xl bg-[url('./assets/rocks/rocks.jpg')]">
         <div className="flex flex-row h-full overflow-auto bg-cover bg-gradient-to-r from-transparent via-slideGradient via-30% to-slideGradient">
           <div className="flex flex-col translate-x-3 sm:translate-x-8 md:translate-x-10 lg:translate-x-0 sm:flex-row items-center justify-center sm:justify-end  w-1/3 sm:w-60 lg:w-80 h-full mr-20 ">
@@ -74,8 +74,8 @@ const Pods = () => {
                   />
 
                   <div className="caption flex flex-col justify-center items-center mt-2">
-                    <p className="text-md text-white">Lost Vape Orion</p>
-                    <p className="text-md text-white">45,000 MMK</p>
+                    <p className="text-md text-white">Geek Vape L200</p>
+                    <p className="text-md text-white">60,000 MMK</p>
                     <p className="text-yellow-300 flex gap-1 items-center">
                       {" "}
                       <svg

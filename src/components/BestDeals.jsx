@@ -8,7 +8,7 @@ import BestDeal9 from "../assets/BestDeal/BestDeal9.jpg";
 
 const BestDeals = () => {
   return (
-    <div className="mx-auto mb-14 container sm:px-10 lg:px-16">
+    <div className="mx-auto mb-10 sm:mb-14 container sm:px-10 lg:px-16">
       <div className="flex flex-col items-center mb-10">
         <h1 className="font-bold text-[40px] sm:text-[50px]">Best Deals</h1>
         <h4 className=" text-lg sm:text-xl font-semibold">Just For You</h4>

@@ -15,11 +15,20 @@ const settings = {
   autoplaySpeed: 5000,
 };
 
-const LongCarousel = () => {
+const NewArrivals = () => {
   const SliderRef = useRef(null);
 
   return (
-    <div className="container mx-auto mb-8 sm:mb-20 sm:px-10 lg:px-16">
+    <div className="container mx-auto mb-5 sm:mb-14 sm:px-10 lg:px-16">
+      <div className="flex flex-col justify-center items-center w-full mb-5">
+        <p className="text-[30px] md:text-[40px] lg:text-[50px] font-bold">
+          New Arrivals
+        </p>
+        <p className="text-lg md:text-xl font-semibold">
+          Can pre-order now 
+        </p>
+      </div>
+
       <div className="max-h-[270px] overflow-hidden sm:rounded-2xl relative">
         <Slider {...settings} ref={SliderRef}>
           <div className="">
@@ -81,4 +90,4 @@ const LongCarousel = () => {
   );
 };
 
-export default LongCarousel;
+export default NewArrivals;

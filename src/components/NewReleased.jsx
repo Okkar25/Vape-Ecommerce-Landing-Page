@@ -6,7 +6,7 @@ import Release9 from "../assets/member/item9.jpg";
 
 const NewReleased = () => {
   return (
-    <div className=" container mx-auto mb-10 sm:mb-14 sm:px-10 lg:px-16">
+    <div className=" container mx-auto mb-5 sm:mb-14 sm:px-10 lg:px-16">
       <div className="flex flex-col justify-center items-center w-full mb-5">
         <p className="text-[30px] md:text-[40px] lg:text-[50px] font-bold">
           <span className="text-red-500">New</span> Released

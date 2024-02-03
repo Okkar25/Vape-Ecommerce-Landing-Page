@@ -47,7 +47,14 @@ const SlideItemArr = [
 
 const Devices = () => {
   return (
-    <div className="container mx-auto mb-3 sm:mb-20 sm:px-10 lg:px-16 ">
+    <div className="container mx-auto mb-3 sm:mb-14 sm:px-10 lg:px-16 ">
+      <div className="flex flex-col justify-center items-center w-full mb-5">
+        <p className="text-[30px] md:text-[40px] lg:text-[50px] font-bold">
+          Bestsellers
+        </p>
+        <p className="text-lg md:text-xl font-semibold">Customers love us!</p>
+      </div>
+
       <div className="h-[320px] w-full overflow-hidden sm:rounded-2xl bg-[url('./assets/rocks/rocks.jpg')]">
         <div className="flex flex-row h-full overflow-auto bg-cover bg-gradient-to-r from-transparent via-slideGradient via-30% to-slideGradient">
           <div className="flex flex-col translate-x-3 sm:translate-x-0 sm:flex-row items-center justify-center  w-1/3 sm:w-60 lg:w-80 h-full mr-20 ">
