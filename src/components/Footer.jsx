@@ -2,8 +2,8 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="container mx-auto px-5 sm:px-10 lg:px-32">
-      <div className="grid grid-cols-2 gap-2 grid-rows-3 sm:grid-cols-2 sm:grid-rows-3 md:grid-cols-3 md:grid-rows-2 xl:grid-cols-4  xl:grid-rows-2 sm:gap-5 md:gap-10 lg:gap-5 h-full md:h-[320px]">
+    <footer className="container mx-auto px-5 sm:px-10 lg:px-16">
+      <div className="grid grid-cols-1 gap-5 grid-rows-3 sm:grid-cols-2 sm:grid-rows-3 md:grid-cols-3 md:grid-rows-2 xl:grid-cols-4  xl:grid-rows-2 sm:gap-5 md:gap-10 lg:gap-5 h-full md:h-[320px]">
         <div className="flex flex-col gap-3 font-semibold ">
           <h3 className="text-2xl font-bold font-opensans">Customer Service</h3>
           <p className="text-md">Terms & Privacy Policy</p>
@@ -26,7 +26,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="flex flex-col  gap-3">
+        <div className="flex flex-col gap-2 sm:gap-3">
           <h3 className="text-2xl font-bold font-opensans">Contact Us</h3>
           <p className="text-md font-semibold">
             Lay Daunt Kan Main Road, Cashmere Stop, Near Zawana, Thingangyun
@@ -35,7 +35,7 @@ const Footer = () => {
           <p className="text-md font-semibold">09458489458</p>
         </div>
 
-        <div className="flex flex-col gap-3 ">
+        <div className="flex flex-col sm:gap-3">
           <h3 className="text-2xl font-bold font-opensans">Download Our App</h3>
           <img
             className="w-40 -ms-3"
@@ -46,7 +46,7 @@ const Footer = () => {
 
         <div className="flex flex-col gap-3">
           <h3 className="text-2xl font-bold font-opensans">Payment</h3>
-          <div className="flex gap-1">
+          <div className="flex gap-3 sm:gap-1">
             <img
               className="sm:w-20 sm:h-12 w-14 h-10 rounded-xl object-cover"
               src="https://www.kbzpay.com/wp-content/uploads/sites/9/2020/04/blue-L.png"
@@ -62,7 +62,7 @@ const Footer = () => {
 
         <div className="flex flex-col gap-3">
           <h3 className="text-2xl font-bold font-opensans">Follow Us On</h3>
-          <div className="flex gap-1 sm:gap-3">
+          <div className="flex gap-3">
             <img
               className="sm:w-10 sm:h-10 w-7 h-7 rounded-full object-cover"
               src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/1200px-Facebook_f_logo_%282019%29.svg.png"
@@ -91,10 +91,11 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <p className="text-center font-opensans block text-lg sm:font-semibold mb-5 md:translate-y-0 mt-0 md:mt-20 lg:mt-16 -translate-y-16">
+
+      <p className="text-center font-opensans text-lg font-semibold mb-5 mt-10">
         &copy; Copyright 2024 by S.D Co.,Ltd. All rights reserved
       </p>
-    </div>
+    </footer>
   );
 };
 
