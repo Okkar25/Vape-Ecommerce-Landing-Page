@@ -48,7 +48,7 @@ const SlideItemArr = [
 const Pods = () => {
   return (
     <div className="container mx-auto mb-3 sm:mb-20 sm:px-10 lg:px-16 ">
-      <div className="h-[320px] w-full overflow-hidden sm:rounded-2xl bg-rockPattern">
+      <div className="h-[320px] w-full overflow-hidden sm:rounded-2xl bg-[url('./assets/rocks/rocks.jpg')]">
         <div className="flex flex-row h-full overflow-auto bg-cover bg-gradient-to-r from-transparent via-slideGradient via-30% to-slideGradient">
           <div className="flex flex-col translate-x-3 sm:translate-x-8 md:translate-x-10 lg:translate-x-0 sm:flex-row items-center justify-center sm:justify-end  w-1/3 sm:w-60 lg:w-80 h-full mr-20 ">
             <img src={Pod} className="w-full sm:w-[270px]" alt="" />

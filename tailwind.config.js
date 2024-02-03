@@ -16,9 +16,6 @@ export default {
         slideGradient: "#2d2d2d",
         slideImgBg: "#eaeaea",
       },
-      backgroundImage: {
-        rockPattern: `url('./src/assets/rocks/rocks.jpg')`,
-      },
     },
   },
   plugins: [require("flowbite/plugin", "tailwind-scrollbar-hide")],
