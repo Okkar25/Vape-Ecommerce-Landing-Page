@@ -1,8 +1,20 @@
-# React + Vite
+# Vape Store Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+# Try it out
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+https://smoke-vape-maze-ecommerce-okkar-aung.vercel.app/
+
+
+## Tech Stack Used
+
+- ReactJS
+- TailwindCSS
+- JavaScript
+- React Slick Carousel
+- Hero Icons
+
+
+![vapeEcom1](https://github.com/Okkar25/Portfolio-Website/assets/118409114/85efbfbb-d7a9-45d6-a470-b74eb77b1356)
+
+![vapeEcom2](https://github.com/Okkar25/Portfolio-Website/assets/118409114/67c93c1a-ccdc-42e7-b0b7-e3bcb3ef93ba)

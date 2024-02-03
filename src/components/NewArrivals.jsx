@@ -24,9 +24,7 @@ const NewArrivals = () => {
         <p className="text-[30px] md:text-[40px] lg:text-[50px] font-bold">
           New Arrivals
         </p>
-        <p className="text-lg md:text-xl font-semibold">
-          Can pre-order now 
-        </p>
+        <p className="text-lg md:text-xl font-semibold">Can pre-order now</p>
       </div>
 
       <div className="max-h-[270px] overflow-hidden sm:rounded-2xl relative sm:shadow-xl">
