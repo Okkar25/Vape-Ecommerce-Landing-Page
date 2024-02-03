@@ -7,11 +7,18 @@ export default {
   ],
   theme: {
     colors: {
-    
-    "member": "#EBEBE9"
+      member: "#EBEBE9",
     },
 
-    extend: {},
+    extend: {
+      colors: {
+        slideGradient: "#2d2d2d",
+        slideImgBg: "#eaeaea",
+      },
+      backgroundImage: {
+        rockPattern: "url('./src/assets/rocks/rocks.jpg')",
+      },
+    },
   },
-  plugins: [require("flowbite/plugin")],
+  plugins: [require("flowbite/plugin", "tailwind-scrollbar-hide")],
 };

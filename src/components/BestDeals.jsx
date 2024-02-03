@@ -8,7 +8,7 @@ import BestDeal9 from "../assets/BestDeal/BestDeal9.jpg";
 
 const BestDeals = () => {
   return (
-    <div className="mx-auto mb-14 container">
+    <div className="mx-auto mb-14 container sm:px-10 lg:px-16">
       <div className="flex flex-col items-center mb-10">
         <h1 className="font-bold text-[40px] sm:text-[50px]">Best Deals</h1>
         <h4 className=" text-lg sm:text-xl font-semibold">Just For You</h4>
@@ -16,12 +16,12 @@ const BestDeals = () => {
 
       <div className="grid grid-cols-1 gap-3 sm:gap-5 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-6">
         <div className="best-deal-item mb-3 sm:mb-0">
-          <div className="relative flex justify-center mx-auto w-[230px] sm:w-auto items-center bg-gray-200 rounded-3xl overflow-hidden">
+          <div className="relative flex justify-center mx-auto w-[250px] sm:w-auto items-center bg-gray-200 rounded-3xl overflow-hidden">
             <div className="bg-red-500 absolute top-0 px-4 py-1 rounded-b-md text-white font-bold">
               25% Off
             </div>
             <img
-              className="w-[210px] h-[210px] hover:scale-110 duration-200 cursor-pointer"
+              className="w-[250px] h-[250px] sm:w-[210px] sm:h-[210px] hover:scale-110 duration-200 cursor-pointer"
               src={BestDeal2}
               alt=""
             />
@@ -52,12 +52,12 @@ const BestDeals = () => {
         </div>
 
         <div className="best-deal-item mb-3 sm:mb-0">
-          <div className="relative flex justify-center mx-auto w-[230px] sm:w-auto items-center bg-gray-200 rounded-3xl overflow-hidden">
+          <div className="relative flex justify-center mx-auto w-[250px] sm:w-auto items-center bg-gray-200 rounded-3xl overflow-hidden">
             <div className="bg-red-500 absolute top-0 px-4 py-1 rounded-b-md text-white font-bold">
               25% Off
             </div>
             <img
-              className="w-[210px] h-[210px] hover:scale-110 duration-200 cursor-pointer"
+              className="w-[250px] h-[250px] sm:w-[210px] sm:h-[210px] hover:scale-110 duration-200 cursor-pointer"
               src={BestDeal6}
               alt=""
             />
@@ -88,12 +88,12 @@ const BestDeals = () => {
         </div>
 
         <div className="best-deal-item mb-3 sm:mb-0">
-          <div className="relative flex justify-center mx-auto w-[230px] sm:w-auto items-center bg-gray-200 rounded-3xl overflow-hidden">
+          <div className="relative flex justify-center mx-auto w-[250px] sm:w-auto items-center bg-gray-200 rounded-3xl overflow-hidden">
             <div className="bg-red-500 absolute top-0 px-4 py-1 rounded-b-md text-white font-bold">
               25% Off
             </div>
             <img
-              className="w-[210px] h-[210px] hover:scale-110 duration-200 cursor-pointer"
+              className="w-[250px] h-[250px] sm:w-[210px] sm:h-[210px] hover:scale-110 duration-200 cursor-pointer"
               src={BestDeal7}
               alt=""
             />
@@ -124,12 +124,12 @@ const BestDeals = () => {
         </div>
 
         <div className="best-deal-item mb-3 sm:mb-0">
-          <div className="relative flex justify-center mx-auto w-[230px] sm:w-auto items-center bg-gray-200 rounded-3xl overflow-hidden">
+          <div className="relative flex justify-center mx-auto w-[250px] sm:w-auto items-center bg-gray-200 rounded-3xl overflow-hidden">
             <div className="bg-red-500 absolute top-0 px-4 py-1 rounded-b-md text-white font-bold">
               25% Off
             </div>
             <img
-              className="w-[210px] h-[210px] hover:scale-110 duration-200 cursor-pointer"
+              className="w-[250px] h-[250px] sm:w-[210px] sm:h-[210px] hover:scale-110 duration-200 cursor-pointer"
               src={BestDeal8}
               alt=""
             />
@@ -160,12 +160,12 @@ const BestDeals = () => {
         </div>
 
         <div className="best-deal-item mb-3 sm:mb-0">
-          <div className="relative flex justify-center mx-auto w-[230px] sm:w-auto items-center bg-gray-200 rounded-3xl overflow-hidden">
+          <div className="relative flex justify-center mx-auto w-[250px] sm:w-auto items-center bg-gray-200 rounded-3xl overflow-hidden">
             <div className="bg-red-500 absolute top-0 px-4 py-1 rounded-b-md text-white font-bold">
               25% Off
             </div>
             <img
-              className="w-[210px] h-[210px] hover:scale-110 duration-200 cursor-pointer"
+              className="w-[250px] h-[250px] sm:w-[210px] sm:h-[210px] hover:scale-110 duration-200 cursor-pointer"
               src={BestDeal9}
               alt=""
             />
@@ -196,12 +196,12 @@ const BestDeals = () => {
         </div>
 
         <div className="best-deal-item mb-3 sm:mb-0">
-          <div className="relative flex justify-center mx-auto w-[230px] sm:w-auto items-center bg-gray-200 rounded-3xl overflow-hidden">
+          <div className="relative flex justify-center mx-auto w-[250px] sm:w-auto items-center bg-gray-200 rounded-3xl overflow-hidden">
             <div className="bg-red-500 absolute top-0 px-4 py-1 rounded-b-md text-white font-bold">
               25% Off
             </div>
             <img
-              className="w-[210px] h-[210px] hover:scale-110 duration-200 cursor-pointer"
+              className="w-[250px] h-[250px] sm:w-[210px] sm:h-[210px] hover:scale-110 duration-200 cursor-pointer"
               src={BestDeal10}
               alt=""
             />

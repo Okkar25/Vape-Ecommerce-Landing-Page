@@ -19,8 +19,8 @@ const LongCarousel = () => {
   const SliderRef = useRef(null);
 
   return (
-    <div className="container mx-auto mb-20">
-      <div className="max-h-[300px] overflow-hidden sm:rounded-2xl relative">
+    <div className="container mx-auto mb-8 sm:mb-20 sm:px-10 lg:px-16">
+      <div className="max-h-[270px] overflow-hidden sm:rounded-2xl relative">
         <Slider {...settings} ref={SliderRef}>
           <div className="">
             <img src={Slide1} alt="" className="w-full" />

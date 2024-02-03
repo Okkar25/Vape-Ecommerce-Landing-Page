@@ -206,3 +206,33 @@ const Hero = () => {
 };
 
 export default Hero;
+
+
+---------------------------------------------------------------------------------------
+
+
+
+    <div className="container mx-auto mb-20 sm:px-10 lg:px-16 ">
+      <div className="h-[320px] w-full overflow-hidden sm:rounded-2xl ">
+
+        <div className="grid grid-cols-4 grid-rows-1 h-full overflow-auto bg-rockPattern bg-cover">
+          <div className="flex items-center justify-center">
+            <img src={Dispose} className="w-[270px] " alt="" />
+
+            <div className="-translate-x-12 z-20">
+              <p className="text-[38px] text-white font-bold mb-1">Devices</p>
+              <p className="text-white text-xl font-semibold">
+                Find the best for you here!
+              </p>
+            </div>
+          </div>
+
+          <div className="col-span-3">
+            
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
