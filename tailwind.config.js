@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+
 export default {
   content: [
     "./index.html",
@@ -16,7 +17,7 @@ export default {
         slideImgBg: "#eaeaea",
       },
       backgroundImage: {
-        rockPattern: "url('./src/assets/rocks/rocks.jpg')",
+        rockPattern: `url('./src/assets/rocks/rocks.jpg')`,
       },
     },
   },
