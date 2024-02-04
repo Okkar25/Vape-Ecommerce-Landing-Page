@@ -32,14 +32,14 @@ const Hero = () => {
         </div>
 
         {/* setting icon */}
-        <div className="absolute z-50 sm:flex gap-8 top-10 right-10 sm:top-10 sm:right-48">
+        <div className="absolute z-50 sm:flex gap-8 top-8 right-10 translate-x-1/2 sm:top-10 sm:right-48">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
             viewBox="0 0 24 24"
             strokeWidth={1.5}
             stroke="white"
-            className="w-8 h-8 cursor-pointer sm:inline-block hidden"
+            className="w-7 h-7 cursor-pointer sm:inline-block hidden"
           >
             <path
               strokeLinecap="round"
@@ -54,7 +54,7 @@ const Hero = () => {
             viewBox="0 0 24 24"
             strokeWidth={1.5}
             stroke="white"
-            className="w-8 h-8 cursor-pointer sm:inline-block hidden"
+            className="w-7 h-7 cursor-pointer sm:inline-block hidden"
           >
             <path
               strokeLinecap="round"
@@ -69,7 +69,7 @@ const Hero = () => {
             viewBox="0 0 24 24"
             strokeWidth={1.5}
             stroke="white"
-            className="w-8 h-8 cursor-pointer"
+            className="sm:w-7 sm:h-7 w-8 h-8 cursor-pointer"
           >
             <path
               strokeLinecap="round"
