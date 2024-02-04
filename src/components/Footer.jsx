@@ -3,14 +3,14 @@ import React from "react";
 const Footer = () => {
   return (
     <footer className="container mx-auto px-5 sm:px-10 lg:px-16">
-      <div className="grid grid-cols-1 gap-5 grid-rows-3 sm:grid-cols-2 sm:grid-rows-3 md:grid-cols-3 md:grid-rows-2 xl:grid-cols-4  xl:grid-rows-2 sm:gap-5 md:gap-10 lg:gap-5 h-full md:h-[320px]">
-        <div className="flex flex-col gap-3 font-semibold ">
+      <div className="flex flex-col sm:flex-row flex-wrap gap-y-5">
+        <div className="basis-full sm:basis-1/2 md:basis-1/3 lg:basis-1/4 flex flex-col gap-3 font-semibold ">
           <h3 className="text-2xl font-bold font-opensans">Customer Service</h3>
           <p className="text-md">Terms & Privacy Policy</p>
           <p className="text-md">Return Policy</p>
         </div>
 
-        <div className="flex flex-col gap-3">
+        <div className="basis-full sm:basis-1/2 md:basis-1/3 lg:basis-1/4 flex flex-col gap-3">
           <h3 className="text-2xl font-bold  font-opensans">Language</h3>
           <div className="text-md flex items-center gap-3 font-semibold">
             <input type="radio" name="language" checked />
@@ -26,16 +26,16 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="flex flex-col gap-2 sm:gap-3">
+        <div className="basis-full sm:basis-1/2 md:basis-1/3 lg:basis-1/4 flex flex-col gap-2 sm:gap-3">
           <h3 className="text-2xl font-bold font-opensans">Contact Us</h3>
-          <p className="text-md font-semibold">
+          <p className="text-md font-semibold w-[85%]">
             Lay Daunt Kan Main Road, Cashmere Stop, Near Zawana, Thingangyun
             Tsp, Yangon
           </p>
           <p className="text-md font-semibold">09458489458</p>
         </div>
 
-        <div className="flex flex-col sm:gap-3">
+        <div className="basis-full sm:basis-1/2 md:basis-1/3 lg:basis-1/4 flex flex-col sm:gap-3">
           <h3 className="text-2xl font-bold font-opensans">Download Our App</h3>
           <img
             className="w-40 -ms-3"
@@ -44,7 +44,7 @@ const Footer = () => {
           />
         </div>
 
-        <div className="flex flex-col gap-3">
+        <div className="basis-full sm:basis-1/2 md:basis-1/3 lg:basis-1/4 flex flex-col gap-3">
           <h3 className="text-2xl font-bold font-opensans">Payment</h3>
           <div className="flex gap-3 sm:gap-1">
             <img
@@ -60,7 +60,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="flex flex-col gap-3">
+        <div className="basis-full sm:basis-1/2 md:basis-1/3 lg:basis-1/4 flex flex-col gap-3">
           <h3 className="text-2xl font-bold font-opensans">Follow Us On</h3>
           <div className="flex gap-3">
             <img
